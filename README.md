@@ -1,6 +1,8 @@
-CODSOFT Internship Projects
+CODSOFT |
 
-LEVEL 1
+Internship PROJECTS |
+
+LEVEL 1 |
 
 📄 Task 1 - "Landing Page"
 This project aims to create a captivating and user-friendly fully responsive landing page using HTML and CSS. The landing page serves as the gateway to our website, making it crucial to leave a lasting impression on visitors.
