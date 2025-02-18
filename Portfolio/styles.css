@@ -1,4 +1,4 @@
-/* Reset and base styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +30,6 @@ body {
     padding: 0 20px;
 }
 
-/* Typography */
 h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
@@ -46,7 +45,6 @@ h2 {
     text-align: center;
 }
 
-/* Navbar */
 .navbar {
     position: fixed;
     top: 0;
@@ -100,7 +98,6 @@ h2 {
     transition: 0.3s;
 }
 
-/* Hero Section */
 .hero {
     min-height: 100vh;
     display: flex;
@@ -131,18 +128,18 @@ h2 {
 .hero-image {
     flex: 1;
     max-width: 400px;
-    text-align: right; /* Aligns image to the right */
+    text-align: right; 
 }
 
 .hero-image img {
     width: 100%;
     max-width: 350px;
     height: auto;
-    border-radius: 50%; /* Makes image circular - remove if not needed */
+    border-radius: 50%; 
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
-/* Buttons */
+
 .cta-buttons {
     display: flex;
     gap: 1rem;
@@ -176,7 +173,6 @@ h2 {
     color: var(--white);
 }
 
-/* About Section */
 .about {
     padding: 5rem 0;
 }
@@ -198,7 +194,6 @@ h2 {
     margin-bottom: 1rem;
 }
 
-/* Skills Section */
 .skills {
     padding: 5rem 0;
     background-color: var(--light-bg);
@@ -231,7 +226,6 @@ h2 {
     transition: width 1s ease-in-out;
 }
 
-/* Projects Section */
 .projects {
     padding: 5rem 0;
 }
@@ -271,7 +265,6 @@ h2 {
     gap: 1rem;
 }
 
-/* Contact Section */
 .contact {
     padding: 5rem 0;
     background-color: var(--light-bg);
@@ -319,15 +312,12 @@ h2 {
     resize: vertical;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 2rem 0;
     background-color: var(--accent-color);
     color: white;
 }
-
-/* Media Queries */
 @media (max-width: 768px) {
     .nav-links {
         display: none;
