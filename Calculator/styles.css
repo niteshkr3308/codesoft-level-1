@@ -66,7 +66,7 @@ button:hover {
 
 .equalBtn {
     background-color: rgb(41, 56, 56);
-    grid-column: span 1; /* Keep it in the same line as the other buttons */
+    grid-column: span 1; 
 }
 
 .operator {
@@ -76,8 +76,6 @@ button:hover {
 .dot {
     font-size: 50px;
 }
-
-/* Add these media queries at the end of your CSS */
 
 @media (max-width: 768px) {
     .calculator {
